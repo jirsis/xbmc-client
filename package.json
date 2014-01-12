@@ -1,0 +1,10 @@
+{
+  "name": "watched",
+  "version": "0.0.0",
+  "description": "Marcado de temporadas e items como vistos",
+  "main": "xbmc.js",
+  "private": true,
+  "devDependencies": {
+    "request": "~2.31.0"
+  }
+}
