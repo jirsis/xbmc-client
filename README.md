@@ -15,4 +15,8 @@ ToDo
 * ~~Implement action contextMenu~~
 * ~~Implement action downMenu~~
 * ~~Implement action enterMenu~~
+* ~~Implement command watchEpisode (tv)~~
+* Implement command watchFilm
+* Implement command watchTvShow
+* Implement looped version of all of commands
 * Implement promt when not define one command as argument.
