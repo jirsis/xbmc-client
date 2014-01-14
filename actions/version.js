@@ -4,5 +4,5 @@ var version = {
     id: 1
   }
 
-exports.version = version;
+exports.action = version;
 
