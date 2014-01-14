@@ -1,8 +1,8 @@
-var version = {
+var contextual = {
     jsonrpc: "2.0",
-    method: "JSONRPC.Version",
+    method: "Input.ContextMenu",
     id: 1
   }
 
-exports.version = version;
+exports.action = contextual;
 
