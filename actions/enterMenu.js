@@ -1,8 +1,8 @@
-var version = {
+var enter = {
     jsonrpc: "2.0",
-    method: "JSONRPC.Version",
+    method: "Input.Select",
     id: 1
   }
 
-exports.version = version;
+exports.action = enter;
 
