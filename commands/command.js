@@ -1,8 +1,8 @@
-var info = require("./info");
+var infoApi = require("./infoApi");
 var watchSeason = require("./watchSeason");
 
 var commands = []
-commands["info"] = info;
+commands["infoApi"] = infoApi;
 commands["watchSeason"] = watchSeason;
 
 var handle = function(host, command){
