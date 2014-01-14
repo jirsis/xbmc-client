@@ -1,9 +1,11 @@
 var infoApi = require("./infoApi");
 var watchSeason = require("./watchSeason");
+var watchEpisode = require("./watchEpisode");
 
 var commands = []
 commands["infoApi"] = infoApi;
 commands["watchSeason"] = watchSeason;
+commands["watchEpisode"] = watchEpisode;
 
 var handle = function(host, command){
   if (commands[command] === undefined) {
