@@ -18,7 +18,7 @@ ToDo
 * ~~Implement command watchEpisode (tv)~~
 * ~~Implement command n watchEpisodes (tv)~~
 * Implement command watchFilm
-* Implement command watchTvShow
+* ~~Implement command watchTvShow~~
 * Implement looped version of all of commands
 * Migrate to POST method
 * Implement promt when not define one command as argument.
