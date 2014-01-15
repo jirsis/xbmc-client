@@ -3,6 +3,7 @@ var watchSeason = require("./watchSeason");
 var watchEpisode = require("./watchEpisode");
 var watchEpisodes = require("./watchEpisodes");
 var watchTvShow = require("./watchTvShow");
+var watchFilm = require("./watchFilm");
 
 var commands = []
 commands["infoApi"] = infoApi;
@@ -10,6 +11,7 @@ commands["watchSeason"] = watchSeason;
 commands["watchEpisode"] = watchEpisode;
 commands["watchEpisodes"] = watchEpisodes;
 commands["watchTvShow"] = watchTvShow;
+commands["watchFilm"] = watchFilm;
 
 var handle = function(host, command){
   if (commands[command] === undefined) {
