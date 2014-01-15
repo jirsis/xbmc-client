@@ -18,12 +18,15 @@ var watchSeason = function(host){
         request(downActionUrl, function(error, response, body){
           console.log("Información de serie de tv");
           request(downActionUrl, function(error, response, body){
-            console.log("Marcar como no visto");
+            console.log("Explorar nuevo contenido");
             request(downActionUrl, function(error, response, body){
-              console.log("Marcar como visto");
-              request(enterActionUrl, function(error, response, body){
-                console.log("Marcado!!");
-              }); 
+              console.log("Marcar como no visto");
+              request(downActionUrl, function(error, response, body){
+                console.log("Marcar como visto");
+                request(enterActionUrl, function(error, response, body){
+                  console.log("Marcado!!");
+                }); 
+              });
             }); 
           }); 
         }); 
