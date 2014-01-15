@@ -5,7 +5,7 @@ var enterMenu = require("../actions/enterMenu");
 
 var request = require("request");
 
-var watchSeason = function(host){
+var watchEpisode = function(host){
   
   contextualActionUrl = host+JSON.stringify(contextualMenu.action);
   downActionUrl = host+JSON.stringify(downMenu.action);
@@ -33,4 +33,4 @@ var watchSeason = function(host){
   });
 };
 
-exports.exec = watchSeason 
+exports.exec = watchEpisode
