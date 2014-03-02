@@ -1,5 +1,4 @@
 var contextualMenu = require("../actions/contextMenu");
-var contextualMenu = require("../actions/contextMenu");
 var downMenu = require("../actions/downMenu");
 var enterMenu = require("../actions/enterMenu");
 
@@ -15,16 +14,13 @@ var watchEpisode = function(host){
     request(downActionUrl, function(error, response, body){
       console.log("Reproducir usando");
       request(downActionUrl, function(error, response, body){
-        console.log("Reproducir desde aqui");
+        console.log("Añadir a favoritos");
         request(downActionUrl, function(error, response, body){
-          console.log("Añadir a favoritos");
+          console.log("Información de episodio");
           request(downActionUrl, function(error, response, body){
-            console.log("Información de episodio");
-            request(downActionUrl, function(error, response, body){
-              console.log("Marcar como visto");
-              request(enterActionUrl, function(error, response, body){
-                console.log("Marcado!!");
-              }); 
+            console.log("Marcar como visto");
+            request(enterActionUrl, function(error, response, body){
+              console.log("Marcado!!");
             }); 
           }); 
         }); 

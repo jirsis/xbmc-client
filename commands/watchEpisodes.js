@@ -1,5 +1,4 @@
 var contextualMenu = require("../actions/contextMenu");
-var contextualMenu = require("../actions/contextMenu");
 var downMenu = require("../actions/downMenu");
 var enterMenu = require("../actions/enterMenu");
 
